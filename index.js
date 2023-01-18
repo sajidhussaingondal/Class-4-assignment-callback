@@ -21,7 +21,7 @@ Ate dinner and did homework
 
 function sayHello() {
   let you = prompt("What's your name? ");
-  console.log(`Hello, ${you}  !`);
+  console.log(`Hello, ${you}!`);
 }
 sayHello();
 
@@ -64,6 +64,7 @@ multiplicationFunction(5, 6);
 // console.log (Math.floor (Math.random()*10));
 
 let newArray = ["Great", "Good", "Excellent", "Humble"];
+console.table(newArray);
 function provideName() {
   let yourName = prompt("What is your name? ");
   let arrSelection = Math.floor(Math.random() * newArray.length);
@@ -72,7 +73,7 @@ function provideName() {
 provideName();
 
 const val1 = 10;
-const val2 = 5;
+const val2 = 2;
 let operat = "-";
 function cal(a, b, op) {
   if (op == "-") {
